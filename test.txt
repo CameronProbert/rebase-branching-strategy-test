@@ -9,7 +9,7 @@ Standard workflow:
 3. At the start of day/frequently *pull* uat and *rebase* your branch onto it.
     1. Resolve merge conflicts if there are any.
 4. Create a PR from your branch to uat.
-    1. Test your changes! The tester (Darpan) will only test *after* the PR is merged into uat, so you need to be as sure as possible that your code is functional and bug free before it is merged.
+    1. Test your changes! The tester (Ronald) will only test *after* the PR is merged into uat, so you need to be as sure as possible that your code is functional and bug free before it is merged.
 5. Demo your changes to another developer and/or tester - testing against the acceptance criteria on the ticket.
 6. After PR is reviewed and any rework done, *squash and merge* it to uat.
     1. Squashing is done so that all your similar code is grouped together into a single commit with a good description and commit message, making it easier to see when changes were made and reducing the number of non-helpful commit messages like “OORD-123 minor changes” or “OORD-123 changes from PR”, as well as removing any intermediate commits where there may have been private keys/passwords committed accidentally.
